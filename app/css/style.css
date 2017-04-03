@@ -1,0 +1,23 @@
+.upperCase {
+  text-transform: uppercase;
+}
+.fontRaleway {
+  font-family: Raleway;
+}
+.fontRalewayWeight1 {
+  font-weight: 400;
+}
+.fontRalewayWeight2 {
+  font-weight: 700;
+}
+.menu-top {
+  padding: 20px;
+  background-color: #164EA3;
+}
+.navbar-right li a,
+.navbar-header a {
+  text-transform: uppercase;
+  font-family: Raleway;
+  font-weight: 700;
+  color: #FFFFFF;
+}

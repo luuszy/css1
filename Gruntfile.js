@@ -27,7 +27,7 @@ module.exports = function (grunt) {
             },
             livereload: {
                 options: {
-                    open: true,
+                    open: { appName: 'google-chrome' },
                     middleware: function (connect) {
                         return [connect().use('/bower_components', serveStatic('./bower_components')), serveStatic('app')];
                     }
