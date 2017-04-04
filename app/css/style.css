@@ -26,6 +26,9 @@ h6 {
   margin-bottom: 10px;
   text-transform: uppercase;
 }
+.section-about {
+  padding: 120px;
+}
 .upperCase {
   text-transform: uppercase;
 }
@@ -59,7 +62,7 @@ h6 {
 .main-title {
   color: #FFFFFF;
   font-family: "Roboto Condensed", sans-serif;
-  padding-top: 340px;
+  padding-top: 300px;
   font-weight: 700;
 }
 .main-title h1 {
@@ -67,4 +70,69 @@ h6 {
 }
 .main-title p {
   font-size: 25px;
+}
+.social-icons li i {
+  width: 40px;
+  height: 40px;
+  background-color: #FFFFFF;
+  color: #164EA3;
+  text-align: center;
+  border-radius: 3px;
+  vertical-align: middle;
+  padding: 12px;
+  font-size: 16px;
+}
+.other-title {
+  margin-bottom: 80px;
+}
+.about-nav {
+  text-transform: uppercase;
+}
+.about-nav li a {
+  background-color: #EEEEEE;
+  border-radius: 0px;
+}
+.about-nav li a:hover {
+  background-color: #164EA3;
+  color: #FFFFFF;
+}
+.nav-pills > li.active > a {
+  background-color: #164EA3;
+  color: #FFFFFF;
+}
+.about-nav li a {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #777E8D;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.about-wrapper h2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.about-wrapper h4 {
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+.about-wrapper p {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #666666;
+  line-height: 28px;
+  font-weight: 300;
+  font-size: 16px;
+}
+.about-wrapper button {
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #FFFFFF;
+  border: 2px solid #CCCCCC;
+  padding: 14px 40px 14px 40px;
+  font-size: 13px;
+  font-weight: 700;
+}
+.education-wrapper {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #EEEEEE;
 }

@@ -8,7 +8,6 @@
 1 - Google Font
 ======================================================================---*/
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600,700|Roboto+Condensed:300,400,700');
-
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 /*---====================================================================
 2 - Main styles
@@ -27,6 +26,9 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
   margin-bottom: 10px;
   text-transform: uppercase;
+}
+.section-about {
+  padding: 120px;
 }
 .upperCase {
   text-transform: uppercase;
@@ -61,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 .main-title {
   color: @color2;
   .fontRoboto;
-  padding-top: @padding*17;
+  padding-top: @padding*15;
   font-weight: @font-weight*7;
 }
 .main-title h1 {
@@ -69,4 +71,69 @@ h1, h2, h3, h4, h5, h6 {
 }
 .main-title p {
   font-size: @font-size*2.5;
+}
+.social-icons li i {
+  width: 40px;
+  height: 40px;
+  background-color: @color2;
+  color: @color1;
+  text-align: center;
+  border-radius: 3px;
+  vertical-align: middle;
+  padding: 12px;
+  font-size: @font-size*1.6px;
+}
+.other-title {
+  margin-bottom: 80px;
+}
+.about-nav {
+  .upperCase;
+}
+.about-nav li a {
+  background-color: #EEEEEE;
+  border-radius: 0px;
+}
+.about-nav li a:hover {
+  background-color: #164EA3;
+  color: @color2;
+}
+.nav-pills>li.active>a{
+  background-color: #164EA3;
+  color: @color2;
+}
+.about-nav li a {
+  .fontRoboto;
+  color: #777E8D;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.about-wrapper h2 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.about-wrapper h4 {
+  .fontRoboto;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+.about-wrapper p {
+  .fontRoboto;
+  color: #666666;
+  line-height: 28px;
+  font-weight: 300;
+  font-size: 16px;
+}
+.about-wrapper button {
+  .upperCase;
+  .fontRoboto;
+  background-color: @color2;
+  border: 2px solid #CCCCCC;
+  padding: 14px 40px 14px 40px;
+  font-size: 13px;
+  font-weight: 700;
+}
+.education-wrapper {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #EEEEEE;
 }
