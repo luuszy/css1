@@ -142,8 +142,57 @@ p.cd-headline {
   font-size: 13px;
   font-weight: 700;
 }
-.education-wrapper {
+.education-wrapper,
+.skills-wrapper {
   margin-top: 30px;
   margin-bottom: 20px;
+}
+.education-wrapper h2,
+.skills-wrapper h2 {
   border-bottom: 2px solid #EEEEEE;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+}
+.education-box {
+  background-color: #EEEEEE;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+.education-text {
+  float: right;
+  width: 88%;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.education-text h4 {
+  font-size: 22px;
+  font-weight: 400;
+}
+.education-text p {
+  font-weight: 300;
+  font-size: 16px;
+}
+.education-text p strong {
+  color: #666666;
+}
+.education-icon {
+  display: inline-block;
+}
+.education-icon {
+  width: 12%;
+  margin-bottom: 40px;
+}
+.education-icon {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border: 2px solid #164EA3;
+  line-height: 40px;
+  color: #164EA3;
+}
+.personal-skills i,
+.programming-skills i,
+.personal-skills h3,
+.programming-skills h3 {
+  display: inline-block;
 }
