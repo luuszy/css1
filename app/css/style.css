@@ -44,6 +44,7 @@ h6 {
   background-color: transparent;
   color: #FFFFFF;
   border-bottom: none;
+  transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
 }
 .navbar-right li a,
 .navbar-header a {
@@ -52,6 +53,11 @@ h6 {
   font-weight: 700;
   color: #FFFFFF;
   font-size: 15px;
+}
+.top-nav-collapse {
+  background-color: #164EA3;
+  color: white;
+  transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
 }
 #section-home {
   height: 100%;
@@ -317,4 +323,73 @@ p.cd-headline {
   font-weight: 300;
   font-size: 16px;
   line-height: 26px;
+}
+.item {
+  position: relative;
+}
+.section-portfolio {
+  padding: 120px;
+}
+.section-portfolio ul {
+  list-style: none;
+  padding: 0px;
+  text-align: center;
+  margin-left: 8px;
+}
+.section-portfolio ul li {
+  display: inline-block;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  color: #777;
+  padding: 9px 15px 9px 15px;
+  letter-spacing: 1px;
+  border: 2px solid #CCCCCC;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.section-portfolio .portfolio-inner img {
+  max-width: 100%;
+}
+.section-portfolio .portfolio-inner .portfolio-caption {
+  position: absolute;
+  color: #333333;
+  left: 0;
+  top: 0;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+.section-portfolio .portfolio-inner .portfolio-caption h4 {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #fff;
+  -webkit-transition: .3s;
+  transition: .3s;
+  border: 1px solid #fff;
+  padding: 10px 10px;
+  display: inline-block;
+}
+.item:hover .portfolio-caption {
+  opacity: 1;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+.item:hover .portfolio-caption h4 {
+  margin-top: 150px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+.portfolio .item img {
+  width: 100%;
+  z-index: 99999;
+}
+.portfolio-inner .mix {
+  padding: 10px;
 }
