@@ -518,20 +518,74 @@ p.cd-headline {
   margin-bottom: 30px;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 700;
+  font-size: 25px;
 }
-.section-message .container .row .col-md-10 .col-md-7 .form-area1 form .input-group span {
+.section-message .container .row .col-md-10 .col-md-7 .form-area1 form {
+  padding-bottom: 20px;
+}
+.section-message .container .row .col-md-10 .col-md-7 .form-area1 form .form-group span {
   border-radius: 0px;
   background-color: #164EA3;
 }
-.section-message .container .row .col-md-10 .col-md-7 .form-area1 form .input-group span i {
+.section-message .container .row .col-md-10 .col-md-7 .form-area1 form .form-group span i {
   color: white;
 }
-.section-message .container .row .col-md-10 .col-md-7 .form-area1 form .input-group input {
+.section-message .container .row .col-md-10 .col-md-7 .form-area1 form .form-group input {
+  height: 46px;
   border-radius: 0px;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+}
+.section-message .container .row .col-md-10 .col-md-7 .form-area1 form .form-group textarea {
+  border-radius: 0px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+}
+.section-message .container .row .col-md-10 .col-md-7 .form-area1 form button {
+  border-radius: 0px;
+  background-color: #164EA3;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .section-message .container .row .col-md-10 .col-md-5 {
   background-color: #164EA3;
+  padding: 20px 30px 119px 20px;
 }
 .section-message .container .row .col-md-10 .col-md-5 .form-area2 .form-title h2 {
   color: white;
+  padding-top: 10px;
+  margin-bottom: 30px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+.section-message .container .row .col-md-10 .col-md-5 .form-area2 .form-title p {
+  color: white;
+  line-height: 26px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.section-message .container .row .col-md-10 .col-md-5 .form-area2 .form-contact i {
+  background-color: white;
+  color: #164EA3;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.section-message .container .row .col-md-10 .col-md-5 .form-area2 .form-contact span {
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
 }
